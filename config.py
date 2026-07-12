@@ -14,7 +14,7 @@ class Settings:
     DB_PORT: str = os.getenv("DB_PORT", "5432")
     DB_NAME: str = os.getenv("DB_NAME", "orcan_visiontrace")
     DB_USER: str = os.getenv("DB_USER", "orcan_user")
-    DB_PASSWORD: str = os.getenv("DB_PASSWORD", "orcan123")
+    DB_PASSWORD: str = os.getenv("DB_PASSWORD", "")
     
     # Application Configuration
     SECRET_KEY: str = os.getenv("SECRET_KEY", "orcan-visiontrace-secret-key-change-in-production")
