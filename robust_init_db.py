@@ -248,7 +248,7 @@ def create_sample_user(config):
         
         print(f"✅ Sample user created successfully!")
         print(f"   Email: test@orcan.com")
-        print(f"   Password: test123")
+        print(f"   Password: "")
         print(f"   Credits: 1500")
         
         db.close()
